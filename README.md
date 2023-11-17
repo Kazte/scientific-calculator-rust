@@ -18,7 +18,7 @@ Regex::new(r"(\d+)\s?\+\s?(\d+)")
 ## Todo
 
 - [x] Basic operations
-- [ ] Abstract operations to method
+- [x] Abstract operations to method
 - [ ] Add parenthesis
 - [ ] Add more functionality:
   - [ ] Exponential
