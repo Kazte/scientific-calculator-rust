@@ -2,9 +2,9 @@
 
 Scientific calculator made in Rust.
 
-## Regex
+## Regex explanation
 
-Addition regex:
+### e.g. Addition regex:
 
 ```rust
 Regex::new(r"(\d+)\s?\+\s?(\d+)")
@@ -13,7 +13,7 @@ Regex::new(r"(\d+)\s?\+\s?(\d+)")
 - Add Regex -> (\d+) \s? \+ \s? (\d+)
   - (\d+) -> One or more digits
   - \s? -> Space (optional)
-  - \+ -> add symbol
+  - \\+ -> add symbol
 
 ## Todo
 
