@@ -3,12 +3,6 @@ use std::io::stdin;
 
 fn main() {
     // Regex
-
-    // Add Regex -> (\d+)\s?\+\s?(\d+)
-    // (\d+) -> One or more digits
-    // \s? -> Space (optional)
-    // \+ -> add
-
     let re_add = Regex::new(r"(\d+)\s?\+\s?(\d+)").unwrap(); // Unwrap -> Error handling.
     let re_sub = Regex::new(r"(\d+)\s?\-\s?(\d+)").unwrap();
     let re_mult = Regex::new(r"(\d+)\s?\*\s?(\d+)").unwrap();
