@@ -15,6 +15,16 @@ Regex::new(r"(\d+)\s?\+\s?(\d+)")
   - \s? -> Space (optional)
   - \+ -> add symbol
 
+## Todo
+
+- [x] Basic operations
+- [ ] Abstract operations to method
+- [ ] Add parenthesis
+- [ ] Add more functionality:
+  - [ ] Exponential
+  - [ ] Logarithms
+  - [ ] Sin, Cos, Tg
+
 <hr/>
 
 Created for learning purpose.
